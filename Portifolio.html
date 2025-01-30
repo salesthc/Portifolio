@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur Sales Silva">
+    <meta name="description" content="Portfólio de Arthur Sales Silva - Programador HTML">
+    <title>Portfólio de Arthur Sales Silva</title>
+    <style>
+        /* Resetando alguns estilos padrões */
+        body, h1, h2, h3, p, a, nav, ul {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Corpo e fundo do site */
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #2d2d2d;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        /* Navegação */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+            transition: transform 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Seções */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Seção Sobre */
+        #sobre {
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Seção Projetos */
+        #projetos {
+            background-color: #fafafa;
+        }
+
+        .projeto {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .projeto:hover {
+            transform: scale(1.05);
+        }
+
+        .projeto a {
+            text-decoration: none;
+            color: #2d2d2d;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .projeto a:hover {
+            color: #007bff;
+        }
+
+        /* Seção Contato */
+        #contato {
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Formulário */
+        form {
+            margin-top: 20px;
+            text-align: left;
+            display: inline-block;
+            max-width: 600px;
+            width: 100%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #2d2d2d;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #f4f4f4;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Arthur Sales Silva</h1>
+        <p>Programador HTML | Desenvolvedor Front-End</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá, sou Arthur Sales Silva, programador apaixonado por desenvolvimento web, com foco em HTML, CSS e JavaScript. Tenho o objetivo de criar experiências web intuitivas, acessíveis e eficientes.</p>
+        <p>Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e contribuir com soluções criativas e inovadoras para cada projeto.</p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <div class="projeto">
+            <h3>Projeto 1: Site Pessoal</h3>
+            <p>Este é meu site pessoal, feito para exibir meu portfólio e serviços. A estrutura foi criada com HTML5, CSS3 e JavaScript.</p>
+            <a href="https://meusite.com" target="_blank">Visitar Projeto</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Projeto 2: Landing Page</h3>
+            <p>Desenvolvi uma landing page para uma campanha de marketing, com foco em conversões e design limpo e eficiente.</p>
+            <a href="https://landingpage.com" target="_blank">Visitar Projeto</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Projeto 3: Blog de Tecnologia</h3>
+            <p>Um blog de tecnologia focado em notícias e tutoriais, desenvolvido com HTML, JavaScript e um design moderno e responsivo.</p>
+            <a href="https://blogtecnologia.com" target="_blank">Visitar Projeto</a>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Estou disponível para novos projetos e colaborações. Entre em contato comigo pelo formulário abaixo ou através dos meus contatos.</p>
+
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Arthur Sales Silva | Todos os direitos reservados</p>
+        <p><a href="https://github.com/arthursalessilva" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/arthursalessilva" target="_blank">LinkedIn</a></p>
+    </footer>
+
+</body>
+</html>
